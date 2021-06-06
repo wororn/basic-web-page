@@ -1,0 +1,369 @@
+
+*{
+    box-sizing:border-box;
+    
+ }
+ 
+@media screen and (max-width: 700px) {
+    main,#content,aside,article,.greeting{
+    display: flex;   
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: wrap;
+  }
+  .pesan,.messege{
+  margin: 1px;
+   }
+}
+  
+   
+    
+    body {
+           display: flex;
+           flex-direction: column;
+           flex-grow: 1;
+           color:#FFFFFF; 
+           width: auto;
+           height: auto;
+           padding: 10px 15px 10px 15px;
+           margin: 0 auto;
+           border: 2px  #F2F2F2;
+           border-radius: 5px;
+           background-color: #ABF2F2;
+           font-family:Tahoma;
+           
+       }
+        
+             
+        .header {
+           display: flex;
+           flex-direction: column;
+           flex-grow: 1;
+           clear:both;  
+           padding: 5px 15px 5px 15px;
+           margin: 10px 0px 10px 0px;
+           border: 2px ;
+           border-radius: 5px;
+           background-color:#000040;
+           background-position: center;
+           background-size:cover;
+           background-image: linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.342)),url(../image/Dkriuk.jpg);
+           height:500px;
+          
+       }
+        .judul{
+          padding: 1px 1px 25px 1px;
+           margin: 1px 1px 15px 1px;
+           
+         }
+
+         .contact{
+            padding: 1px 1px 25px 1px;
+           margin: 250px 1px 15px 1px;
+         }
+          
+         .wa{
+          top:0px;
+
+
+         }
+          nav{
+             flex-grow: 1;
+             display:flex;
+             padding: 10px 15px 10px 15px;
+              margin: 5px 5px 5px 10px;
+             text-decoration:none;
+             position:fixed;
+             top:8.75em;
+             background-color:#000040;
+             text-align:left;
+             border-radius: 5px;
+             opacity:80%;
+             left:auto;
+          }
+ 
+          ul{ 
+           display:inline;
+           text-decoration:none;
+           margin: 1px 40px 5px 1px;
+          }
+          
+           li {
+           display:inline;
+           font-family:sans-serif;
+           font-weight:300;
+           padding:10px 10px 10px 10px;
+        }
+        
+         .bawah {
+           display:inline;
+           font-family:sans-serif;
+           padding:10px 10px 10px 8px;
+        }
+         a  { 
+          font-size:0.75em;
+          color:#FFFFFF; 
+          text-decoration:none;
+          opacity:100%;
+          }
+         
+          a:hover { 
+          color:#FF6600; 
+          font-size: 1em;
+          font-weight:bold;
+          }
+        
+          main {
+           display: flex;
+           flex-direction: row;
+            flex-grow: 1;
+            
+           clear:both;  
+           background-color:#000040;
+           border-radius: 5px;
+       } 
+       
+          .pendahuluan{
+           margin: 6.25em 1.875em 3.175em 1.875em;
+            font-size: 1.25em;
+            line-height:1.5;
+           }
+           .WA{
+           margin-right:3.125em;
+           width:1.875em;
+            }
+     
+      footer {
+           display: flex;
+           flex-grow: 1;
+           flex-direction:column;
+           justify-content: center;
+           align-items: center;
+           
+           text-align:center;
+           padding:5px 5px 5px 5px;
+          
+            margin: 10px 0px 10px 0px;
+           border-radius: 5px ;
+           background-color:#000040;
+            
+       }
+       
+                
+       
+       h1 {
+          color:#FFFFFF;
+          text-align:center;
+          font-size: 2.25em;
+          font-weight:400;
+           
+          }
+          b{
+           font-weight:900;
+           text-shadow: 1px 1px 2px #00FFFF, 0 0 25px #B9FFFF, 0 0 5px #FFFFFF;
+           }
+          
+           h2 {
+          color:#FFFFFF;
+          text-align:left;
+          font-size: 1.875em;
+           
+          }
+          
+    
+           h5 {
+          color:#FFFFFF;
+          text-align:center;
+          font-size: 0.625em;
+          }
+          
+          h3 {
+          color:#FFFFFF;
+          text-align:center;
+          font-size: 1em;
+          }
+          
+          
+           tr { 
+           text-align:left; 
+           }
+           
+           .biodata{
+           width:percentage;
+           font-family:sans-serif;
+           font-size:0.75em;
+          
+            }
+    
+        .nol{
+          display: flex;
+           flex-direction:column;
+           flex-grow: 2;
+           font-size: 1em;
+         }
+         
+        .makanan {
+             display:block;
+             font-family:sans-serif;
+             padding:1px 1px 1px 1px;
+             list-style-type:circle;
+             text-decoration:inherit;
+             
+          }
+      
+       
+      #content {
+           
+           display: flex;
+           flex-direction:column;
+           flex-grow: 2;
+           padding:10px 15px 10px 15px;
+           margin: 5px;
+           clear:both;
+           
+           border-radius: 5px;
+           background-color: #0080FF;
+           font-family:sans-serif;
+           font-size: 1.125em;
+       }
+       
+       article{
+           display: flex;
+           clear:both;
+           flex-direction:row;
+           flex-grow: 1;
+       }
+       
+       .pusat, .cabang{
+          font-size: 1em;
+        }
+        
+        .pesan{
+         display: flex;
+         flex-direction:column;
+         flex-grow: 1;
+         clear:both;
+       }
+        
+       
+
+      aside {
+           display: flex;
+           clear:both;
+           flex-grow: 1;
+          
+           flex-direction:column;
+           padding:10px 15px 10px 15px;
+           margin: 5px;
+           border: 2px ;
+           border-radius: 5px;
+           background-color: #0080FF;
+       }
+       
+         .biodata {
+           background-color: #0080FF;
+            font-size: 1em;
+             clear:both;
+          }
+          
+         .riwayat{
+           font-size: 0.75em;
+           clear:both;
+          }
+          
+        .pictures {
+           display: flex;
+           flex-grow: 1;
+           clear:both;
+           padding:5px 5px 5px 5px;
+           margin: 5px;
+        }
+        
+        .kotak {
+           display: flex;
+           flex-grow: 1;
+           clear:both;
+           
+           padding:10px 10px 10px 10px;
+           margin: 5px;
+           border-width:thick; 
+           border-radius: 10px;
+           border-color: yellow;
+           border-style:solid;
+           background-color:#f69977;
+           box-shadow: 10px 10px 15px #000;
+           -webkit-box-shadow: 10px 10px 15px #000;
+           -moz-box-shadow: 10px 10px 15px #000;
+        }
+        
+       
+         
+        .logo{
+          display: flex;
+          flex-grow: 1;
+           clear:both;
+           width: 18.75em;
+           padding:1px 1px 1px 25px;
+           margin:1px;
+          
+         }
+         
+         .greeting {
+           display: flex;
+           flex-grow: 2;
+           clear:both;
+           padding:5px 5px 5px 5px;
+           margin: 5px;
+           flex-wrap:wrap;
+         }
+         
+        .description {
+           clear:both;
+           flex-grow: 2;
+           
+           padding:5px 5px 5px 5px;
+           margin: 5px;
+           
+         }
+         
+       .images{
+           display: flex;
+           flex-grow:1;
+           min-width:6.25em;
+           width: 18.75em;
+           border-radius:10px ;
+           clear:both;
+        }
+
+        .Background{
+         display: flex;
+         flex-grow:1;
+        
+         width: 18.75em;
+         border-radius:10px ;
+         clear:both;
+      }
+        
+        .images:hover{
+          width:21.875em;
+         }
+         
+        .fotos{
+           width: 12.25em;
+           
+        }
+       
+        #gambarlogo{
+         width: 260em;
+         padding:5px 5px 5px 5px;
+         clear:both;
+      }
+     
+        
+     
+    
+    .bawah{
+         padding:10px 10px 10px 40px;
+     }
+    
+      
